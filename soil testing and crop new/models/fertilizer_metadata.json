@@ -1,0 +1,52 @@
+{
+  "model_name": "RandomForestClassifier",
+  "features_numeric": [
+    "temperature",
+    "humidity",
+    "moisture",
+    "nitrogen",
+    "potassium",
+    "phosphorous"
+  ],
+  "features_categorical": [
+    "soil_type",
+    "crop_type"
+  ],
+  "target": "fertilizer_name",
+  "classes": [
+    "10-26-26",
+    "14-35-14",
+    "17-17-17",
+    "20-20",
+    "28-28",
+    "DAP",
+    "Urea"
+  ],
+  "soil_types": [
+    "Black",
+    "Clayey",
+    "Loamy",
+    "Red",
+    "Sandy"
+  ],
+  "crop_types": [
+    "Barley",
+    "Cotton",
+    "Ground Nuts",
+    "Maize",
+    "Millets",
+    "Oil seeds",
+    "Paddy",
+    "Pulses",
+    "Sugarcane",
+    "Tobacco",
+    "Wheat"
+  ],
+  "accuracy": 0.1325,
+  "precision": 0.1339,
+  "recall": 0.1325,
+  "f1_score": 0.1316,
+  "training_date": "2026-08-17T18:19:06",
+  "dataset": "fertilizer_data.csv",
+  "dataset_rows": 8000
+}

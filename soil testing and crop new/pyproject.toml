@@ -1,0 +1,14 @@
+[project]
+name = "soil-testing-and-crop-new"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+soil-testing-and-crop-new = "soil_testing_and_crop_new:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"

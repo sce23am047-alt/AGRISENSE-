@@ -1,0 +1,1 @@
+This file is NOT used for training. It uses humidity/rainfall instead of moisture, which does not match the sensors described in the project PPT (NPK + pH + moisture + temperature). Kept here for reference only.
